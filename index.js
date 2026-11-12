@@ -24,18 +24,18 @@
 // console.log(hasMilk);
 // console.log(shoppingList.length);
 // ----------------------3-----------------------
-// const scores = [5, 7, 8, 9, 6, 4];
-// const firstThreeScores = scores.slice(0, 3);
-// const removedScores = scores.splice(3, 2);
-// scores.splice(0, 0, 10, 11);
-// scores.splice(2, 1, 12);
-// const hasFive = scores.includes(5);
-// const scoresString = scores.join(',');
-// console.log(scores);
-// console.log(firstThreeScores);
-// console.log(removedScores);
-// console.log(hasFive);
-// console.log(scoresString);
+const grades = [12, 8, 10, 6, 11, 9, 7, 12, 5];
+const firstStudentMarks = grades.slice(0, 3);
+const removedScores = grades.splice(3, 2);
+grades.splice(0, 0, 10, 11);
+grades.splice(2, 1, 12);
+const hasFive = grades.includes(5);
+console.log(hasFive);
+const gradesString = grades.join(',');
+console.log(grades);
+console.log(gradesString);
+console.log(removedScores);
+console.log(firstStudentMarks);
 // ----------------------4-----------------------
 // const cart = {
 //   userName: 'Alex',
